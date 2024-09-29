@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* justify-items: center; */
+
+}
+
+
+
+.mainbody
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+.hero {
+
+    width: 76%;
+    height: 100vh;
+    /* background-color: aqua ; */
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    animation-name: fadeout;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes fadeout {
+    from {
+        display: block;
+    }
+    to {
+        display: none;
+    }
+}
+
+
+.side-panel1 {
+
+    width: 12%;
+    height: 100vh;
+
+    /* background-color: red; */
+    background-image: url(./planetsleft.jpg);
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+.right1 {
+    background-image: url(./blackholeright.png);
+}
+
+.hero-child {
+
+    width: 100%;
+    height: 100%;
+    /* padding: 5% 10px; */
+    vertical-align: top;
+    /* background-color: yellowgreen; */
+    background-image: url(./planetary2omg.png);
+    justify-items: center;
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+.title {
+    font-size: 4rem;
+    color: antiquewhite;
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+    }
+}
+
+.subtitle {
+    font-size: 3rem;
+    color: antiquewhite;
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 5.5s;
+}
+
+.herotxt {
+    font-size: 1.8rem;
+    color: antiquewhite;
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}
+
+.button1
+{
+    padding: 10px 15px;
+    font-size: 22px;
+    margin-top: 25px;
+    background-image: url(./buttonpurl.png);
+    color: white;
+    border:2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+
+}
+
+.button1:hover
+{
+    background-color: transparent;
+    color: black;
+}
+
+.gallerybody {
+
+    width: 100%;
+    height: 75vh;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+
+}
+
+.gallery {
+
+    width: 76%;
+    height: 100%;
+    /* box-sizing: border-box; */
+
+    background-color: black;
+    background-image: url(./npsimg3.png);
+    position: relative;
+    /* display: flex; */
+    /* display: flexbox; */
+    
+
+}
+
+
+.g1 {
+    font-size: 2rem;
+    align-self: baseline;
+}
+
+.galleryimg {
+    width:80%;
+    height: 35vh;
+    justify-self: center;
+    justify-items: center;
+}
+
+.mySlides {
+    width: 50%;
+
+}
+.r1 {
+    float: left;
+}
+.r2 {
+    float: right;
+}
+.r3 {
+    float: left;
+}
+.r4 {
+    float: right;
+}
+
+
+.side-panel2 {
+
+    width: 12%;
+    height: 75vh;
+    display: inline-block;
+    background-color: pink;
+    background-image: url(./nightpinkleft.png);
+}
+
+.right2 {
+    background-image: url(./nightpinkright.png);
+    display: inline-block;
+
+}
+
+.footerbody {
+    width: 100%;
+    height: 25vh;
+
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+.footer {
+    width: 76%;
+    height: 100%;
+
+    background-color: blueviolet;
+    /* padding: 5% 10px; */
+    justify-items: center;
+    background-image: url(./earthrisecenter111.png);
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+}
+
+.footnote {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: antiquewhite;
+    
+}
+
+.links {
+    font-size: 1.5rem;
+    display: inline-block;
+    font-weight: 500;
+    color: antiquewhite;
+}
+
+.side-panel3 {
+    width: 12%;
+    height: 25vh;
+
+    background-color: yellow;
+    background-image: url(./gradientblue1.png);
+}
+
+.right3 {
+    background-image: url(./gradientblue2.png);
+}
